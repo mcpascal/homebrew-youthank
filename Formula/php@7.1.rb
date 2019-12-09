@@ -1,12 +1,8 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Php71 < Formula
-  desc ""
-  homepage ""
-  url "https://github.com/mcpascal/homebrew-youthank/blob/master/libs/php71-7.1.33.tar.xz"
-  sha256 "336530d71d1e2f7b9c7aee5afe3a6eafa49eac1a0acadb1876011fbe72bf556e"
-
+class PhpAT71 < Formula
+  desc "General-purpose scripting language"
+  homepage "https://www.php.net/"
+  url "https://www.php.net/distributions/php-7.1.33.tar.xz"
+  sha256 "bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968"
 
   bottle do
     sha256 "8d5fe6ef069cd38913facb42b72b5597aaeb1d7eb05377ba53259e2d5dd1ba2e" => :catalina
